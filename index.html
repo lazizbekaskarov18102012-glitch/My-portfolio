@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Complete Responsive Personal Portfolio Website Using HTML CSS & JavaScript
+      | Codehal
+    </title>
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="active">
+      <a href="#" class="logo">Lazizbek</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Resume</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <!-- bars bg -->
+    <div class="bars-box active">
+      <div class="bar" style="--i: 6"></div>
+      <div class="bar" style="--i: 5"></div>
+      <div class="bar" style="--i: 4"></div>
+      <div class="bar" style="--i: 3"></div>
+      <div class="bar" style="--i: 2"></div>
+      <div class="bar" style="--i: 1"></div>
+    </div>
+
+    <!-- home section -->
+    <section class="home active">
+      <div class="home-detail">
+        <h1>Askarov Lazizbek</h1>
+        <h2>
+          I'm a
+          <span style="--i: 4" data-text="Coder">Coder</span>
+          <span style="--i: 3" data-text="Freelancer">Freelancer</span>
+          <span style="--i: 2" data-text="Blogger">Blogger</span>
+          <span style="--i: 1" data-text="Backend developer"
+            >Backend developer</span
+          >
+        </h2>
+
+        <p>
+          My name is Askarov Lazizbek. I am a backend developer. I just turned
+          14, and I am currently studying at Monday Academy. This is my
+          portfolio.
+        </p>
+        <div class="btn-sci">
+          <a href="files/cv.pdf" download="" class="btn">Download CV</a>
+
+          <div class="sci">
+            <a href="#"><i class="bx bxl-github"></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://www.instagram.com/rem_bo2012/"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="@askarovlazizbek"><i class="bx bxl-telegram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <div class="img-box">
+          <div class="img-item">
+            <img src="images/Adobe Express - file (1).png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section -->
+    <section class="services">
+      <h2 class="heading">My <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-code-alt"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Frontend Development(HTML, CSS, Bootstrap)</h3>
+          <p>
+            I create modern and responsive web interfaces using HTML, CSS, and
+            Bootstrap. Clean design, fast loading, and cross-device
+            compatibility.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bxs-paint"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>
+            I design clean and user-friendly UI/UX for web applications,
+            focusing on simplicity and usability.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-palette"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Website Design (Bootstrap)</h3>
+          <p>
+            I create beautiful and responsive website designs using Bootstrap,
+            tailored to your requirements.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-trending-up"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Python Programming</h3>
+          <p>
+            I build backend logic and automation using Python, with a focus on
+            clean and maintainable code.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-slideshow"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Backend Development (Django)</h3>
+          <p>
+            I design efficient Django backends tailored to your project
+            requirements, with secure data handling and user-friendly
+            management.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-camera"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Photography</h3>
+          <p>
+            Photography is my hobby. I enjoy capturing moments and experimenting
+            with colors, light, and compositions to create visually appealing
+            images.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- resume section -->
+    <section class="resume">
+      <div class="resume-container">
+        <div class="resume-box">
+          <h2>Why Hire Me?</h2>
+          <p class="desc">
+            I have finished learning HTML and CSS, and I am currently learning
+            Bootstrap and Python. That’s why...
+          </p>
+
+          <button class="resume-btn active">Experience</button>
+          <button class="resume-btn">Education</button>
+          <button class="resume-btn">Skills</button>
+          <button class="resume-btn">About Me</button>
+        </div>
+
+        <div class="resume-box">
+          <div class="resume-detail experience active">
+            <h2 class="heading">My <span>Experience</span></h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+              reiciendis expedita numquam quasi cumque eveniet saepe magnam
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <p class="year">2025 - Present</p>
+                <h3>Backend Developer</h3>
+                <p class="company">Freelancer</p>
+                <p>
+                  Freelance developer specializing in Frontend, Backend, and
+                  Python projects. I help businesses and individuals bring their
+                  ideas to life.
+                </p>
+              </div>
+
+              <!-- <div class="resume-item">
+                <p class="year">2022 - 2023</p>
+                <h3>Full Stack Developer</h3>
+                <p class="company">Google</p>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quos, et.
+                </p>
+              </div> -->
+
+              <!-- <div class="resume-item">
+                <p class="year">2021 - 2022</p>
+                <h3>Frontend Developer</h3>
+                <p class="company">Youtube</p>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quos, et.
+                </p>
+              </div> -->
+
+              <!-- <div class="resume-item">
+                <p class="year">2020 - 2021</p>
+                <h3>Backend Developer</h3>
+                <p class="company">Xyz Inc.</p>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quos, et.
+                </p>
+              </div> -->
+
+              <!-- <div class="resume-item">
+                <p class="year">2019 - 2020</p>
+                <h3>UI/UX Designer</h3>
+                <p class="company">Abc Inc.</p>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quos, et.
+                </p>
+              </div> -->
+
+              <!-- <div class="resume-item">
+                <p class="year">2018 - 1019</p>
+                <h3>Junior Developer</h3>
+                <p class="company">Xyz Corp.</p>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quos, et.
+                </p>
+              </div>  -->
+            </div>
+          </div>
+
+          <div class="resume-detail education">
+            <h2 class="heading">My <span>Education</span></h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A eaque
+              voluptatibus ab. Porro facilis sit delectus illum expedita sed?
+            </p>
+
+            <div class="resume-list">
+              <div class="resume-item">
+                <p class="year">2026</p>
+                <h3>Programming Course</h3>
+                <p class="company">Course</p>
+                <p>
+                  Completed programming courses to strengthen my skills in
+                  Python, Django, HTML, CSS, and web development.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2026 - 2025</p>
+                <h3>Web Development</h3>
+                <p class="company">Course</p>
+                <p>
+                  Completed a Web Development course, learning HTML, CSS,
+                  Bootstrap, and Django to build responsive and functional
+                  websites.
+                </p>
+              </div>
+
+              <!-- <div class="resume-item">
+                <p class="year">2020</p>
+                <h3>Certified Web Development</h3>
+                <p class="company">Online Course</p>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Laudantium, distinctio.
+                </p>
+              </div> -->
+
+              <!-- <div class="resume-item">
+                <p class="year">2017 - 2018</p>
+                <h3>Doctor df Engineering</h3>
+                <p class="company">Codehal University</p>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Laudantium, distinctio.
+                </p>
+              </div> -->
+
+              <!-- <div class="resume-item">
+                <p class="year">2015 - 2017</p>
+                <h3>Master Web Computer Science</h3>
+                <p class="company">Online Course</p>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Laudantium, distinctio.
+                </p>
+              </div> -->
+
+              <!-- <div class="resume-item">
+                <p class="year">2012 - 2015</p>
+                <h3>Bachelor of Data Science</h3>
+                <p class="company">Online Course</p>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Laudantium, distinctio.
+                </p>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="resume-detail skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A eaque
+              voluptatibus ab. Porro facilis sit delectus illum expedita sed?
+            </p>
+
+            <div class="resume-list">
+              <div class="resume-item">
+                <i class="bx bxl-html5"></i>
+                <span>HTML5</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="bx bxl-css3"></i>
+                <span>CSS3</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="bx bxl-python"></i>
+                <span>PYTHON</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="bx bxl-bootstrap"></i>
+                <span>BOOTSTRAP</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="bx bxl-django"></i>
+                <span>DJANGO</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-detail about">
+            <h2 class="heading">About <span> Me</span></h2>
+            <p class="desc">
+              I am a passionate web developer with skills in HTML, CSS,
+              Bootstrap, Django, and Python. I enjoy creating responsive and
+              user-friendly websites, exploring new technologies, and
+              continuously improving my programming skills.
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <p>Name<span>Askarov Lazizbek</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Gender<span>Male</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Age<span>14 Years old</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Status<span>Single</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>City<span>Bukhara</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Nationality<span>Uzbekistan</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Experience<span>1+ Year</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Full Time<span>Available</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Freelance<span>Available</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Phone<span>+998 50 101 18 55</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Email<span>lazizbek@gmail.com</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Languages<span>Russian, Uzbek, Tajik, English</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section -->
+
+    <section class="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <div class="portfolio-details active">
+            <p class="numb">01</p>
+            <h3>Frontend Project</h3>
+            <p>
+              A modern frontend project built using HTML, CSS, JavaScript, and
+              Bootstrap, designed to be fully responsive and user-friendly.
+            </p>
+            <div class="tech">
+              <p>HTML, CSS, JavaScript, Bootstrap</p>
+            </div>
+
+            <div class="live-github">
+              <a href="https://pages-net.netlify.app/"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-details">
+            <p class="numb">02</p>
+            <h3>Frontend Project</h3>
+            <p>
+              A modern frontend project built using HTML, CSS, and JavaScript,
+              designed to be fully responsive and user-friendly.
+            </p>
+            <div class="tech">
+              <p>HTML, CSS, JavaScript</p>
+            </div>
+
+            <div class="live-github">
+              <a href="https://ichkiishlar.netlify.app/"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-details">
+            <p class="numb">03</p>
+            <h3>Frontend Project</h3>
+            <p>
+              A modern frontend project built using HTML, CSS, and JavaScript,
+              designed to be fully responsive and user-friendly.
+            </p>
+            <div class="tech">
+              <p>HTML, CSS, JavaScript</p>
+            </div>
+
+            <div class="live-github">
+              <a href="https://spider-manweb.netlify.app/"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-details">
+            <p class="numb">04</p>
+            <h3>Frontend Project</h3>
+            <p>
+              A modern frontend project built using HTML, CSS, and JavaScript,
+              designed to be fully responsive and user-friendly.
+            </p>
+            <div class="tech">
+              <p>Html,CSS, JavaScript</p>
+            </div>
+
+            <div class="live-github">
+              <a href="https://ramazon-com.netlify.app/"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-details">
+            <p class="numb">05</p>
+
+            <h3>Frontend Project</h3>
+            <p>
+              A modern frontend project built using HTML, CSS, JavaScript and
+              Bootstrap designed to be fully responsive and user-friendly.
+            </p>
+            <div class="tech">
+              <p>Html,Css,JavaScript,Bootstrap</p>
+            </div>
+
+            <div class="live-github">
+              <a href="https://new-year-net.netlify.app/"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-details">
+            <p class="numb">06</p>
+            <h3>Frontend Project</h3>
+            <p>
+              A modern frontend project built using HTML, CSS, JavaScript
+              designed to be fully(No responsive) and user-friendly.
+            </p>
+            <div class="tech">
+              <p>Html,Css,JavaScript</p>
+            </div>
+
+            <div class="live-github">
+              <a href="https://open-com.netlify.app/"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-details">
+            <p class="numb">07</p>
+            <h3>Frontend Project</h3>
+            <p>
+              A modern frontend project built using HTML, CSS designed to be
+              fully (No responsive) and user-friendly.
+            </p>
+            <div class="tech">
+              <p>Html,Css,Javascript</p>
+            </div>
+
+            <div class="live-github">
+              <a href="https://severyanochka-monday.netlify.app/"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-details">
+            <p class="numb">08</p>
+            <h3>Frontend Project</h3>
+            <p>
+              A modern frontend project built using HTML, CSS, JavaScript, and
+              Bootstrap, designed to be fully responsive and user-friendly.
+            </p>
+            <div class="tech">
+              <p>Html,Css,Javascript,Bootstrap</p>
+            </div>
+
+            <div class="live-github">
+              <a href="https://telegraph-com.netlify.app/"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-details">
+            <p class="numb">09</p>
+            <h3>Frontend Project</h3>
+            <p>
+              A modern frontend project built using HTML, CSS designed to be
+              fully responsive and user-friendly.
+            </p>
+            <div class="tech">
+              <p>Html,CSS</p>
+            </div>
+
+            <div class="live-github">
+              <a href="https://worktap-com.netlify.app/"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <div class="portfolio-carousel">
+            <div class="img-slider">
+              <div class="img-item">
+                <img src="images/portfolio1.jpg" alt="" />
+              </div>
+
+              <div class="img-item">
+                <img src="images/portfolio2.jpg" alt="" />
+              </div>
+
+              <div class="img-item">
+                <img src="images/portfolio3.png" alt="" />
+              </div>
+
+              <div class="img-item">
+                <img src="images/portfolio4.png" alt="" />
+              </div>
+
+              <div class="img-item">
+                <img src="images/portfolio.5.png" alt="" />
+              </div>
+
+              <div class="img-item">
+                <img src="images/portfolio6.png" alt="" />
+              </div>
+
+              <div class="img-item">
+                <img src="images/portfolio7.png" alt="" />
+              </div>
+
+              <div class="img-item">
+                <img src="images/portfolio.8.png" alt="" />
+              </div>
+
+              <div class="img-item">
+                <img src="images/portfolio9.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="navigation">
+            <button class="arrow-left disabled">
+              <i class="bx bx-chevron-left"></i>
+            </button>
+            <button class="arrow-right">
+              <i class="bx bx-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact">
+      <div class="contact-container">
+        <div class="contact-box">
+          <h2>Let's Work Together</h2>
+          <p class="desc">
+            Feel free to get in touch with me for freelance projects,
+            collaboration, or any questions. I’ll be happy to respond.
+          </p>
+
+          <div class="contact-detail">
+            <i class="bx bxs-phone"></i>
+            <div class="detail">
+              <p>Phone</p>
+              <p>+998 50 101 18 55</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <i class="bx bxs-envelope"></i>
+            <div class="detail">
+              <p>Email</p>
+              <p>lazizbekaskarov18102012@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <i class="bx bxs-map"></i>
+            <div class="detail">
+              <p>Address</p>
+              <p>60/house street Mustaqillik</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-box">
+          <form action="">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+            <div class="field-box">
+              <input type="text" placeholder="Full Name" required />
+              <input type="email" placeholder="Email Address" required />
+              <input type="text" placeholder="Phone Number" required />
+              <input type="text" placeholder="Email Subject" required />
+              <textarea
+                name=""
+                id=""
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
